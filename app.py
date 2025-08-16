@@ -5,6 +5,7 @@ import pandas as pd
 import numpy as np
 
 # App Title
+st.title("Create by Shubh")
 st.title("✨ My Multi-Tool Calculator App")
 
 # Sidebar for tool selection
@@ -57,3 +58,4 @@ elif tool == "Random Data Chart":
         columns=['A', 'B', 'C']
     )
     st.line_chart(data)
+
